@@ -31,11 +31,21 @@
 		for($i = 0; $i <$age; $i=$i + 1)	{
 			
 			//tegevus mis kordub
-			echo "palju".$i." ";
+			echo "palju ";
 			
 			
 		}
 		
 		echo "õnne!";
+
+?>
+<br>
+<?php
+
+		//trüki välja kuupäev: nädalapäev, kp kuu aasta
+		echo date("l, d F Y e");
+
+
+
 
 ?>
